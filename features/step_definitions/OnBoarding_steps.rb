@@ -1,5 +1,5 @@
 Given("The app launches to the first on-baording screen") do
-  binding.pry
+  text(Go Anywhere)
 end
 
 When("The app opens, the on boarding screen will display and I confirm the page has a skip button") do
@@ -11,7 +11,7 @@ Then("I will swipe to the next page") do
 end
 
 Then("I confirm the second page has a skip button") do
-text(Skip)
+  text(Skip)
 end
 
 Then("I confirm the third page has a skip button") do
