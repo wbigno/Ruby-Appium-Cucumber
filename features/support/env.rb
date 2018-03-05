@@ -1,20 +1,24 @@
-require 'rubygems'
-require 'rspec/expectations'
 require 'appium_lib'
 require 'selenium-webdriver'
 require 'appium_lib/ios/xcuitest'
-require 'test/unit'
 
 
-caps = Appium.load_appium_txt file: File.join(Dir.pwd, 'appium.txt')
+def caps
+  { caps: {
 
-appium_url = 'http://localhost:4723'
+      platformName: "iOS",
+      platform: "iOS",
+      automationName: "XCUITest",
+      deviceName: "iPhone 8, 11.2",
+      udid: "2A9E043F-BD0A-4613-96F3-B25F2CA0B4F9",
+      bundleId: "com.calendre.staging.live",
+      xcodeOrgId: "C5Y5V24V2J",
+      xcodeSigningId: "iPhone Developer",
+      custom_url: "http://127.0.0.1:4723/wd/hub",
+      newCommandTimeout: "3600"
 
-Before {
-  @driver = Selenium::WebDriver.for(:remote, :url => appium_url, :desired_capabilities => caps)
+}}
+end
 
-}
-
-After {
-  @driver.quit
-}
+Appium::Driver.new(caps, true)
+Appium.promote_appium_methods Object
