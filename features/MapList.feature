@@ -8,4 +8,4 @@ Feature: To organize some cool lists of venues and events, I can create our own 
     And I can create a new list by clicking the large plus icon
     Then after I enter the name of my new list I can click create map
     And I shoiuld be taken back to the Maplists page, and I can click the back arrow to return to the main map page
-    Then To see my new maplist I can click on the map icon, and my new maplist will be visible
+    Then To see my new maplist I can click on the map icon, and my new maplist will be visible 

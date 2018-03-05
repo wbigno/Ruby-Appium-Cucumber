@@ -1,17 +1,20 @@
-require "appium_lib"
+require 'rubygems'
+require 'rspec/expectations'
+require 'appium_lib'
+require 'selenium-webdriver'
+require 'appium_lib/ios/xcuitest'
+require 'test/unit'
 
 
-def caps
-  { caps: {
-      deviceName: "iPhone 8",
-      platformName: "iOS",
-      platformVersion: "11.0",
-      app: (File.join(File.dirname(__FILE__), "/Users/williambigno/Live/Live/Payload/liveXYZ.app")),
-      xcodeOrgId: "xcodeOrgId",
-      xcodeSigningId: "iPhone Developer",
-      newCommandTimeout: "3600"
-  }}
-end
+caps = Appium.load_appium_txt file: File.join(Dir.pwd, 'appium.txt')
 
-Appium::Driver.new(caps, true)
-Appium.promote_appium_methods class_array Object
+appium_url = 'http://localhost:4723'
+
+Before {
+  @driver = Selenium::WebDriver.for(:remote, :url => appium_url, :desired_capabilities => caps)
+
+}
+
+After {
+  @driver.quit
+}

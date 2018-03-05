@@ -1,5 +1,6 @@
 Before do
-  $driver.start_driver
+  @driver = Selenium::WebDriver.for(:remote, :url => appium_url, :desired_capabilities => caps)
+
 end
 
 After do
