@@ -1,7 +1,7 @@
 Feature: To organize some cool lists of venues and events, I can create our own map lists
 
   Background:
-    Given The app launches to the first on-baording screen
+    Given I have the app loaded and I am on the main map launch page
 
   Scenario: I will create a new map list that I can use to add venues and events to so I can have custom lists
     When I click on the map icon I will go to the Maplists page

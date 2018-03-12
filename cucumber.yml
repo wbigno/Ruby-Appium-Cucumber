@@ -1,0 +1,1 @@
+wip: --tags @wip --format html --out report.html --format pretty

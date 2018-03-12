@@ -1,8 +1,8 @@
 Feature: Onboarding Screen to orientate new users and returning users to app
 
   Background:
-    Given The app launches to the first on-baording screen
-@test
+    Given The app launches to the first on-boarding screen
+
   Scenario:
     When The app opens, the on boarding screen will display and I confirm the page has a skip button
     Then I will swipe to the next page
