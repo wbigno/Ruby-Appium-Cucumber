@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="175488d5-e3fb-4f51-85c3-943a1bab2c41" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/RubyWorkBench.iml" afterPath="$PROJECT_DIR$/.idea/RubyWorkBench.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/features/LeaveFeedback.feature" afterPath="$PROJECT_DIR$/features/LeaveFeedback.feature" />
-      <change beforePath="$PROJECT_DIR$/features/LocateMe.feature" afterPath="$PROJECT_DIR$/features/LocateMe.feature" />
-      <change beforePath="$PROJECT_DIR$/features/LockedToNyc.feature" afterPath="$PROJECT_DIR$/features/LockedToNyc.feature" />
-      <change beforePath="$PROJECT_DIR$/features/OnBaording.feature" afterPath="$PROJECT_DIR$/features/OnBaording.feature" />
-      <change beforePath="$PROJECT_DIR$/features/SignIn.feature" afterPath="$PROJECT_DIR$/features/SignIn.feature" />
-      <change beforePath="$PROJECT_DIR$/features/TimeModal.feature" afterPath="$PROJECT_DIR$/features/TimeModal.feature" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/LeaveFeedback_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/LeaveFeedback_steps.rb" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/LocateMe_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/LocateMe_steps.rb" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/LockedToNYC_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/LockedToNYC_steps.rb" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/MapMode_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/MapMode_steps.rb" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/OnBoarding_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/OnBoarding_steps.rb" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/TimeModal_step.rb" afterPath="$PROJECT_DIR$/features/step_definitions/TimeModal_step.rb" />
-      <change beforePath="$PROJECT_DIR$/features/support/env.rb" afterPath="$PROJECT_DIR$/features/support/env.rb" />
-      <change beforePath="$PROJECT_DIR$/report.html" afterPath="$PROJECT_DIR$/report.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,7 +40,7 @@
       <file leaf-file-name="env.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/env.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="85">
               <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding />
             </state>
@@ -65,7 +50,7 @@
       <file leaf-file-name="LocateMe_steps.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/LocateMe_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="1140">
               <caret line="76" column="6" lean-forward="false" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
               <folding />
             </state>
@@ -144,7 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,7 +158,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -444,6 +429,7 @@
       <workItem from="1521207930735" duration="150000" />
       <workItem from="1521208286686" duration="164000" />
       <workItem from="1521208926401" duration="398000" />
+      <workItem from="1521210335807" duration="451000" />
     </task>
     <task id="LOCAL-00001" summary="Added 4 new feature files">
       <created>1520027525646</created>
@@ -488,7 +474,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117831000" />
+    <option name="totallyTimeSpent" value="118282000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -501,15 +487,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1154" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23201439" sideWeight="0.49233717" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23561151" sideWeight="0.49233717" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.32394367" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3371069" sideWeight="0.4974055" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24930556" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37484276" sideWeight="0.6760563" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37484276" sideWeight="0.6760563" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20503049" sideWeight="0.50766283" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -880,14 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/LocateMe.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -896,9 +875,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/LocateMe_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="1140">
           <caret line="76" column="6" lean-forward="false" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
           <folding />
         </state>
