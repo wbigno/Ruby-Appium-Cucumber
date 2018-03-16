@@ -1,17 +1,23 @@
-When("I launch the app I should be taken to the map page with the base of Manhattan in view") do
-  find_element(name: "Guttenberg").displayed?
+When("I launch the app I should be taken to the map page with the base of Manhattan in view, then zoom out") do
+  begin
+    array = find_elements(name: "Union City")
+    if array.size > 0
+      puts ("The app launched to the correct zoom level")
+    else puts ("Map did not launch to the correct zoom level")
+    end
+  rescue
+    puts ("Unable to land on the main map page")
+  end
 end
 
 Then("Confirm the Banner saying Area in beta is displayed, and not able to be swiped closed") do
-  if find_element(id: "Area is still in beta & information may be incomplete.").displayed?
-  page = find_element(id: "Area is still in beta & information may be incomplete.")
-  execute_script "mobile: swipe", direction: "up", element: page
-  else fail("Banner failed to display area is in Beta")
-    end
+  find_element(id: "Area is still in beta & information may be incomplete.").displayed?
+    page = find_element(id: "Area is still in beta & information may be incomplete.")
+    execute_script "mobile: swipe", direction: "up", element: page
 end
 
 Then("Confirm I will see a pop up, and I can click on the Fly me to NYC button") do
-  wait = Selenium::WebDriver::Wait.new(:timeout => 30)
+  wait = Selenium::WebDriver::Wait.new(:timeout => 1)
   wait.until {
     element = find_element(accessibility_id: "NYC is our first Live city. We will notify you when other cities launch.")
     element if element.displayed?
@@ -19,36 +25,83 @@ Then("Confirm I will see a pop up, and I can click on the Fly me to NYC button")
   find_element(id: "Fly me to NYC").click
 end
 
-Then("Confirm I was taken back to initial map view from launch") do
-  find_element(name: "Guttenberg").displayed?
+Then("Confirm I was taken back to initial map view from launch, and the banner is gone") do
+  wait = Selenium::WebDriver::Wait.new(:timeout => 3)
+  wait.until {
+    element = find_element(accessibility_id: "Union City")
+    element if element.displayed?
+  }
 end
 
-Then("I will close the legend if it is open") do
-  if find_element(id: "Events").displayed?
-    page = find_element(id: "Events")
-    execute_script "mobile: swipe", direction: "down", element: page
+Then("I will Pan the map to the left until I see Area is still in beta & information may be incomplete") do
+  i = 0
+  until exists { find_element(id: "Area is still in beta & information may be incomplete.").displayed? } do
+    execute_script "mobile: swipe", direction: "left"
+    i += 1
+    break if i == 10
   end
 end
 
-
-Then("I will Pan the map to the left") do
-  2.times{execute_script "mobile: swipe", direction: "left"}
+Then("I will Pan the map to the right until I see Area is still in beta & information may be incomplete") do
+  i = 0
+  until exists { find_element(id: "Area is still in beta & information may be incomplete.").displayed? } do
+    execute_script "mobile: swipe", direction: "right"
+    i += 1
+    break if i == 10
+  end
 end
 
-Then("I will Pan the map to the right") do
-  3.times{execute_script "mobile: swipe", direction: "right"}
+Then("I will pan the map down until I see Area is still in beta & information may be incomplete") do
+  i = 0
+  until exists { find_element(id: "Area is still in beta & information may be incomplete.").displayed? } do
+    execute_script "mobile: swipe", direction: "down"
+    i += 1
+    break if i == 10
+  end
 end
 
-Then("I will pan the map down") do
-  3.times{execute_script "mobile: swipe", direction: "down"}
+Then("I will Pan the map up until I see Area is still in beta & information may be incomplete") do
+  i = 0
+  until exists { find_element(id: "Area is still in beta & information may be incomplete.").displayed? } do
+    execute_script "mobile: swipe", direction: "up"
+    i += 1
+    break if i == 10
+  end
 end
 
-Then("I will Pan the map up") do
-  4.times{execute_script "mobile: swipe", direction: "up"}
+Then("I will Pan the map to the left until I see a pop up saying NYC is our first city") do
+  i = 0
+  until exists { find_element(id: "NYC is our first Live city. We will notify you when other cities launch.").displayed? } do
+    execute_script "mobile: swipe", direction: "left"
+    i += 1
+    break if i == 10
+  end
 end
 
-Then("I can click the setting icon and signout and confirm I am taken to the Sign in and Sign up screen") do
-  find_element(accessibility_id: "settings icon darkmap").click
-  find_element(accessibility_id: "Sign Out").click
-  find_element(accessibility_id: "SIGN UP").displayed?
+Then("I will Pan the map to the right until I see a pop up saying NYC is our first city") do
+  i = 0
+  until exists { find_element(id: "NYC is our first Live city. We will notify you when other cities launch.").displayed? } do
+    execute_script "mobile: swipe", direction: "right"
+    i += 1
+    break if i == 10
+  end
 end
+
+Then("I will pan the map down until I see a pop up saying NYC is our first city") do
+  i = 0
+  until exists { find_element(id: "NYC is our first Live city. We will notify you when other cities launch.").displayed? } do
+    execute_script "mobile: swipe", direction: "down"
+    i += 1
+    break if i == 10
+  end
+end
+
+Then("I will Pan the map up until I see a pop up saying NYC is our first city") do
+  i = 0
+  until exists { find_element(id: "NYC is our first Live city. We will notify you when other cities launch.").displayed? } do
+    execute_script "mobile: swipe", direction: "up"
+    i += 1
+    break if i == 10
+  end
+end
+

@@ -7,5 +7,6 @@ Feature: As a user I want to be able to leave feedback as I use this cool new ap
     When I click on the gear setting icon, I should see a list of options that include Invite Friends, Leave Feedback, Getting Started
     And I click on the Leave Feedback button, I should see the feedback modal
     And I can add feedback in the text box
-    And I should see Four types of feedback, and should select one option
+    And I want to verify that the camera and photo album buttons work, and I am asked for access when clicked on
+    And I should see Four types of feedback, and they should be Displayed and enabled
     Then I should be able to click on the Send Feedback button to submit it

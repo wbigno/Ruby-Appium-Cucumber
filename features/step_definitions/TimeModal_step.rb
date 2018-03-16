@@ -35,3 +35,7 @@ end
 Then("I can confirm that the map updates based on the new date selected") do
   pending # Write code here that turns the phrase above into concrete actions
 end
+
+Then("when I drag the handle down the modal will close and I can see the changes reflected in the legend") do
+  pending # Write code here that turns the phrase above into concrete actions
+end
