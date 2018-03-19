@@ -1,7 +1,6 @@
 
 Before do
   $driver.start_driver
-
 end
 
 After do |scenario|

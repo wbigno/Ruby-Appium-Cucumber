@@ -1,4 +1,4 @@
-Feature: Onboarding Screen to orientate new users and returning users to app
+Feature: On boarding Screen to orientate new users and returning users to app
 
   Background:
     Given The app is loaded and launched I will confirm I am on the on-boarding screen, if not Navigate to it

@@ -20,3 +20,4 @@ Then("To see my new maplist I can click on the map icon, and my new maplist will
   find_element(accessibility_id: "profile icon").click
   find_element(accessibility_id: "New Map")
 end
+

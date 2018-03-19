@@ -6,11 +6,12 @@ Given("I have the app loaded and I am on the main map launch page") do
       else
         puts ("launched to on main map screen")
     end
-      rescue
+  rescue
+    puts("app did not launch as expected")
   end
 end
 
-When("I my app launches on the dark map mode, I can click the setting icon") do
+When("My app launches I will confirm which map mode it is in, and set it up for dark mode to execute test") do
   begin
     array = find_elements(accessibility_id: "settings icon lightmap")
     if array.size > 0
@@ -20,6 +21,7 @@ When("I my app launches on the dark map mode, I can click the setting icon") do
       else find_element(accessibility_id: "settings icon darkmap").click
     end
   rescue
+     puts("I was unable to locate the setting icon and click on it")
   end
 end
 

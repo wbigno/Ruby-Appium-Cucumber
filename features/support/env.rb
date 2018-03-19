@@ -20,8 +20,8 @@ def caps
       udid: "2A9E043F-BD0A-4613-96F3-B25F2CA0B4F9", # sim device iPhone 8
       # udid: "0EF077F4-0AEF-42D3-A66A-434ECD17AF69", # sim device Iphone 7
       # app: (File.join(File.dirname(__FILE__), "Live XYZ 0.13.2.ipa")),
-      bundleId: "com.calendre.live", #Prodcution com.calendre.live Staging com.calendre.staging.live
-      xcodeOrgId: "L7PW2SQ6N4", #Prodcution L7PW2SQ6N4 Staging KZ22KFNH7Z
+      bundleId: "com.calendre.staging.live", #Prodcution com.calendre.live Staging com.calendre.staging.live
+      xcodeOrgId: "KZ22KFNH7Z", #Prodcution L7PW2SQ6N4 Staging KZ22KFNH7Z
       xcodeSigningId: "iPhone Developer",
       noReset: "false",
       fullReset: "false",

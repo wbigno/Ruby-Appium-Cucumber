@@ -1,4 +1,3 @@
-@lockedToNYC
 Feature: As a new user in NYC during the initial launch there is no access outside of NYC
 
   Background:
