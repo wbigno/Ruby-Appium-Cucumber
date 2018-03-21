@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="175488d5-e3fb-4f51-85c3-943a1bab2c41" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/TimeModal_steps.rb" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/williambigno.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/williambigno.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/features/GettingStarted.feature" afterPath="$PROJECT_DIR$/features/GettingStarted.feature" />
-      <change beforePath="$PROJECT_DIR$/features/LocateMe.feature" afterPath="$PROJECT_DIR$/features/LocateMe.feature" />
-      <change beforePath="$PROJECT_DIR$/features/LockedToNyc.feature" afterPath="$PROJECT_DIR$/features/LockedToNyc.feature" />
-      <change beforePath="$PROJECT_DIR$/features/MapList.feature" afterPath="$PROJECT_DIR$/features/MapList.feature" />
-      <change beforePath="$PROJECT_DIR$/features/MapMode.feature" afterPath="$PROJECT_DIR$/features/MapMode.feature" />
-      <change beforePath="$PROJECT_DIR$/features/OnBaording.feature" afterPath="$PROJECT_DIR$/features/OnBaording.feature" />
-      <change beforePath="$PROJECT_DIR$/features/SignIn.feature" afterPath="$PROJECT_DIR$/features/SignIn.feature" />
-      <change beforePath="$PROJECT_DIR$/features/TimeModal.feature" afterPath="$PROJECT_DIR$/features/TimeModal.feature" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/GettingStarted_step.rb" afterPath="$PROJECT_DIR$/features/step_definitions/GettingStarted_steps.rb" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/LeaveFeedback_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/LeaveFeedback_steps.rb" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/LockedToNYC_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/LockedToNYC_steps.rb" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/MapList_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/MapList_steps.rb" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/MapMode_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/MapMode_steps.rb" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/OnBoarding_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/OnBoarding_steps.rb" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/TimeModal_step.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/features/support/env.rb" afterPath="$PROJECT_DIR$/features/support/env.rb" />
-      <change beforePath="$PROJECT_DIR$/features/support/hooks.rb" afterPath="$PROJECT_DIR$/features/support/hooks.rb" />
-      <change beforePath="$PROJECT_DIR$/report.html" afterPath="$PROJECT_DIR$/report.html" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2018-03-15_17.18.50.png" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -466,7 +445,7 @@
       <workItem from="1521208926401" duration="398000" />
       <workItem from="1521210335807" duration="1033000" />
       <workItem from="1521300644158" duration="173000" />
-      <workItem from="1521381453723" duration="31033000" />
+      <workItem from="1521381453723" duration="31346000" />
     </task>
     <task id="LOCAL-00001" summary="Added 4 new feature files">
       <created>1520027525646</created>
@@ -511,7 +490,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150070000" />
+    <option name="totallyTimeSpent" value="150383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
