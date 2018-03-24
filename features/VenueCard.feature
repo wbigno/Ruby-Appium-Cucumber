@@ -2,7 +2,7 @@ Feature: As a user I want to see my venue details all in one place, where I can 
 
   Background:
     Given I have the app loaded and I am on the main map launch page
-@wip
+
   Scenario: I want to check all the buttons on a card to make sure they work
     When I enter a search to pull up a venue card
     Then I scroll down the card to check some buttons
